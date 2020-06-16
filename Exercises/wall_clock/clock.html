@@ -1,1 +1,47 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+  h1 {
+      text-align: center;
+      color:black;
+      text-shadow: 2px red;
+      background-color: azure;
+      background-image: linear-gradient(red,yellow);
+  }
+
+  #clock {
+      color: blue;
+      background-color:beige;
+      font-size: larger;
+      border: 2px solid black;
+      border-radius: 9px;
+      width: 150px;
+      height: 57px;
+      text-align: center;
+      padding: 5px;
+      margin-left: 177px;
+      margin-top: 80px;
+     
+  }
+</style>
+
+<body onload="updateClock(); setInterval('updateClock()',1000)">
+    <div class="container">
+        <h1>Wall Clock</h1>
+        <div id="clock">
+
+        </div>
+    </div>
+
+
+
+    <script src="clock.js"></script>
+</body>
+</html>
