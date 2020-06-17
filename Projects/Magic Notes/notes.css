@@ -1,0 +1,14 @@
+#head {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 47px;
+    color:black;
+    background-color: cadetblue;
+    text-align: center;
+    text-shadow: 2px 2px red;
+}
+
+.card {
+    margin: 10px;
+    margin-top: 37px;
+    width: 120px;
+}
