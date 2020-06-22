@@ -1,0 +1,23 @@
+
+
+.container {
+    margin-top: 10px;
+}
+h1 {
+   color: chocolate;
+   text-align: center;
+   margin-top: 10px;
+}
+
+#myForm {
+    background: center;
+    font-size: larger;
+    
+    
+}
+
+#name,#email,#phone,#cars,#address {
+    border: 2px solid black;
+    font-size: medium;
+    margin-top: 10px;
+}
