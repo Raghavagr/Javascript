@@ -1,3 +1,5 @@
+// create basic alarm clock to set an alarm to ring the bell on given time
+
 console.log("set an alarm to have your work on time");
 
 var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3');
